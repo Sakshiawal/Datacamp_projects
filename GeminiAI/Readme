@@ -1,0 +1,23 @@
+# Chat With Multiple PDFs using Gemini
+
+This Streamlit application allows users to upload multiple PDF files, 
+process them to extract text, and interact with the content using a generative AI model.
+Users can ask questions related to the content of the uploaded PDFs, 
+and the application provides detailed answers based on the extracted information.
+
+## Features
+
+- Upload multiple PDF files.
+- Extract and process text from PDFs.
+- Split text into manageable chunks.
+- Create a vector store for efficient search and retrieval.
+- Answer questions related to the content using Google Generative AI.
+
+## Technologies Used
+
+- **Streamlit**: For creating the web interface.
+- **PyPDF2**: For PDF text extraction.
+- **LangChain**: For text splitting and vector storage.
+- **Google Generative AI**: For generating embeddings and answering questions.
+- **FAISS**: For vector similarity search.
+- **dotenv**: For managing environment variables.
